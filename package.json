@@ -1,5 +1,5 @@
 {
-  "name": "vcfParse",
+  "name": "vcfparse",
   "version": "0.1.0",
   "description": "A node module for reading and parsing a vcf/vcard file",
   "main": "index.js",
