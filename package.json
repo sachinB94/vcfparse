@@ -1,0 +1,26 @@
+{
+  "name": "vcfParse",
+  "version": "0.1.0",
+  "description": "A node module for reading and parsing a vcf/vcard file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sachinb94/vcfParse.git"
+  },
+  "author": "Sachin Bansal <sachinbansal94@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "vcard",
+    "vcf",
+    "vCrd",
+    "json",
+    "vcfParse"
+  ],
+  "bugs": {
+    "url": "https://github.com/sachinb94/vcfParse/issues"
+  },
+  "homepage": "https://github.com/sachinb94/vcfParse"
+}
