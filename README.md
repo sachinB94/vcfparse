@@ -14,7 +14,7 @@ Usage
 
 var vcf = require('vcfParse')
 
-vcf.readFile('<path to the .vcf file>', function (err,contactList) { });
+vcf.readFile('<path to the .vcf file>', function (err,contactList) { });\n
 vcf.getByName('<path to the .vcf file>', '<name to be searched>', <perfectMatch>, function (err,contactList) { });
 vcf.getByTitle('<path to the .vcf file>', '<title to be searched>', function (err,contactList) { });
 vcf.getByEmail('<path to the .vcf file>', '<email to be searched>', <perfectMatch>, function (err,contactList) { });
