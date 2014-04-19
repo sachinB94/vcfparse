@@ -13,14 +13,16 @@ Usage
 =====
 
 var vcf = require('vcfParse')
-
-vcf.readFile('<path to the .vcf file>', function (err,contactList) { });  
-vcf.getByName('<path to the .vcf file>', '<name to be searched>', <perfectMatch>, function (err,contactList) { });  
-vcf.getByTitle('<path to the .vcf file>', '<title to be searched>', function (err,contactList) { });  
-vcf.getByEmail('<path to the .vcf file>', '<email to be searched>', <perfectMatch>, function (err,contactList) { });  
   
-// perfectMatch (optional) == true, if you want to match the search string perfectly  
-// perfectMatch (optional) == false (deafult), if perfect matching not required  
+var path = 'path to vcf file';
+  
+vcf.readFile(path , function (err,contactList) { });  
+vcf.getByName(path , NAME , PERFECT_MATCH , function (err,contactList) { });  
+vcf.getByTitle(path , TITLE , function (err,contactList) { });  
+vcf.getByEmail(path , 'EMAIL' , PERFECT_MATCH , function (err,contactList) { });  
+  
+// PERFECT_MATCH (optional) == true, if you want to match the search string perfectly  
+// PERFECT_MATCH (optional) == false (deafult), if perfect matching not required  
   
 skeletal 'contactList' structure:  
   
