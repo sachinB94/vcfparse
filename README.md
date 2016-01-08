@@ -16,7 +16,7 @@ var vcf = require('vcfParse')
   
 var path = 'path to vcf file';
   
-vcf.readFile(path , function (err,contactList) { });  
+vcf.readVCF(path , function (err,contactList) { });  
 vcf.getByName(path , NAME , PERFECT_MATCH , function (err,contactList) { });  
 vcf.getByTitle(path , TITLE , function (err,contactList) { });  
 vcf.getByEmail(path , 'EMAIL' , PERFECT_MATCH , function (err,contactList) { });  
